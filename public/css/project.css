@@ -1,0 +1,468 @@
+
+/* Navbar-----------------------------*/
+span{
+  color: #7DCAC3;
+  font-size:0.7em;
+}
+.navbar-brand{
+  color: #fff;
+  font-size:1.25em;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+
+nav ul li{
+  display: inline-block;
+  font-size: 0.75em;
+  margin: 0 12px;
+}
+nav ul li a{
+  color:#fff;
+}
+/*Data Analysis-------------------------------*/
+.Analysis-Container{
+  background-color: #D1E0eb;
+  /*overflow: hidden;*/
+  margin-top: 70px;
+  text-align:center;
+  color:#0c3c60;
+  width: 100%;
+  height: auto;
+}
+/* Data Boxes--------------------------------*/
+/*Rating scale--------------------------------*/
+
+input{
+  width: 100%;
+  border: none;
+  background-color: #b3ffec;
+/*  border-radius: 8px;
+  border-color: white;*/
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+.starContainer{
+  background-color: #b3ffec;
+}
+.star-input {
+      display: none;
+
+    }
+
+.star {
+      color: black;
+      padding-bottom: 0.1px;
+      cursor: pointer;
+      }
+
+.star-input:checked + .star ~ .star {
+
+        color: black;
+        opacity: 0.2;
+        cursor: pointer;
+      }
+
+/*first row----------------------------------*/
+.flex{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap:4px;
+  grid-auto-flow: column;
+  margin-top: 35px;
+}
+
+.box1{
+  border:3px solid black;
+  width: 95%;
+  margin-left: 25px;
+}
+.Project1-image{
+  width: 340;
+  height: 380;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+
+.box2{
+  border:3px solid black;
+  width: 95%;
+  margin-left: 25px;
+}
+.Project2-image{
+  width: 340;
+  height: 380;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+
+.box3{
+  border:3px solid black;
+  width: 95%;
+  margin-left: 25px;
+}
+.Project3-image{
+  width: 340;
+  height: 380;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+.box4{
+  border:3px solid black;
+  width: 95%;
+  margin-left: 25px;
+}
+.Project4-image{
+  width: 340;
+  height: 380;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+
+.btn{
+  display: block;
+  background-color: transparent;
+  text-align:center;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 3px 0;
+  border-radius: 8px;
+}
+
+.btn1{
+  display: block;
+  background-color: #b3ffec;
+  text-align:center;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 3px 0;
+  border-radius: 8px;
+}
+
+.btn2{
+  display: block;
+  background-color: #b3ffec;
+  text-align:center;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 3px 0;
+  border-radius: 8px;
+}
+.btn3{
+  background-color: #b3ffec;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 8px;
+}
+/*second row-----------------------------------*/
+.flex2{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap:4px;
+  grid-auto-flow: column;
+  margin-top: 35px;
+}
+
+.box5{
+  border:3px solid black;
+  width: 95%;
+  margin-left: 25px;
+}
+.Project5-image{
+  width: 340;
+  height: 380;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+
+.box6{
+  border:3px solid black;
+  width: 95%;
+  margin-left: 25px;
+}
+.Project2-image{
+  width: 340;
+  height: 380;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+
+.box7{
+  border:3px solid black;
+  width: 95%;
+  margin-left: 25px;
+}
+
+.box8{
+  border:3px solid black;
+  width: 92%;
+  margin-left: 25px;
+}
+
+/*Web Development-------------------------------*/
+.Web-Container{
+  background-color:#9fcaf5 ;
+  text-align:center;
+  padding-top:50px;
+  padding-bottom: 5px;
+  color:#0c3c60;
+}
+.web-flex{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap:4px;
+  grid-auto-flow: column;
+  margin-top: 35px;
+}
+
+.web-box1{
+  border:3px solid black;
+  width: 100%;
+  margin-left: 25px;
+}
+.web1-image{
+  width: 340;
+  height: 380;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+
+.web-box2{
+  border:3px solid black;
+  width: 100%;
+  margin-left: 35px;
+}
+
+/*Footer-----------------------------------------------------------------------*/
+.footer{
+  position:relative ;
+  width: 100%;
+  color: black;
+  left: 0;
+  bottom: 0;
+  background-color:#D1E0eb;
+  text-align: left;
+  overflow: hidden;
+  font-size: 0.8em;
+  font-style: italic;
+}
+/*Android----------------------------------------*/
+/*Data Analysis-------------------------------*/
+/* Data Boxes--------------------------------*/
+
+
+
+@media (max-width:1300px)/*-----------------1300px-----------------------------*/
+{
+  .Analysis-Container{
+  display: block;
+  height: auto;
+  padding-bottom: 25px;
+  }
+  /*first row---------------------------------*/
+  .flex{
+    display:block;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35px;
+  }
+  .box1{
+    margin-bottom: 10px;
+  }
+  .box2{
+    margin-bottom: 10px;
+    width: 95%;
+  }
+  .box3{
+    margin-bottom: 10px;
+  }
+  .box4{
+    width: 95%;
+  }
+/*second row-----------------------------------*/
+  .flex2{
+    display:block;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35px;
+  }
+  .box5{
+    margin-bottom: 10px;
+  }
+  .box6{
+    margin-bottom: 10px;
+  }
+  .box7{
+    margin-bottom: 10px;
+  }
+  .box8{
+    width: 95%;
+  }
+  /*Web Development-----------------------------------*/
+  {
+    .Web-Container{
+      margin-top:-10px;
+    }
+    .web-flex{
+      display:block;
+      justify-content: center;
+      align-content: center;
+      margin-top: 35px;
+    }
+    .web-box1{
+      margin-bottom: 10px;
+      width: 95%;
+    }
+    .web-box2{
+      margin-bottom: 10px;
+      width: 95%;
+      margin-left: 2%;
+    }
+    .footer{
+      display: block;
+    }
+}
+
+
+
+@media(max-width:600px)/*-------------------------600px------------------------*/
+{
+  body{
+    position:static;
+  }
+  .Analysis-Container{
+    height: auto;
+  }
+  /*----------------navbar----------------*/
+      span{
+        color: #7DCAC3;
+        font-size:0.55em;
+        display: block;
+        text-align: center;
+        }
+  /*-----------------analysis---------------*/
+
+    #title-Analysis {
+          padding-top: 30px;
+          font-size: 2em;
+        }
+    .box1{
+          margin-left: auto;
+          width: 100%;
+        }
+    .Project1-image{
+          width: 330;
+          height: 370;
+          margin-left:auto;
+          margin-right: auto;
+          display: block;
+        }
+    .box2{
+          margin-left: auto;
+          width: 100%;
+        }
+    .Project2-image{
+          width: 330;
+          height: 370;
+          margin-left:auto;
+          margin-right: auto;
+          display: block;
+        }
+
+    .box3{
+              margin-left: auto;
+              width: 100%;
+            }
+    .Project3-image{
+              width: 330;
+              height: 370;
+              margin-left:auto;
+              margin-right: auto;
+              display: block;
+            }
+    .box4{
+              margin-left: auto;
+              width: 100%;
+              }
+    .Project4-image{
+              width: 330;
+              height: 370;
+              margin-left:auto;
+              margin-right: auto;
+              display: block;
+              }
+    .box5{
+              margin-left: auto;
+              width: 100%;
+              }
+    .Project5-image{
+              width: 330;
+              height: 370;
+              margin-left:auto;
+              margin-right: auto;
+              display: block;
+              }
+
+  /*--------------------web------------------*/
+  .Web-Container{
+
+  }
+  #title-Web {
+    font-size: 2em;
+  }
+
+  .web-box1{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .web1-image{
+    width:330;
+    height:370;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+  }
+  .web-box2{
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left:5%;
+  }
+  .web2-image{
+    width:330;
+    height: 370;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media (max-width:320px) /*----------------------425px--portrait samsumg-------*/
+{
+body{
+  position: absolute;
+}
+
+}

@@ -1,0 +1,431 @@
+/*-------------------------------global rule----------------------------------*/
+body{
+  margin:0;
+  font-family: "helvetica","sans-serif";
+}
+
+h1,h2,h3{
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1{
+  font-size: 4em;
+}
+
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.2em;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.flex{
+  display: flex;
+  max-width: 1150px;
+  margin: 0 auto;/* top and bottom = 0 , left and right = auto*/
+}
+.footer{
+	position: relative;
+  width: 100%;
+  color: black;
+  background-color:#e5fff9;
+  text-align: left;
+  overflow: hidden;
+  font-size: 0.8em;
+  font-style: italic;
+}
+/*------------------------------Navbar----------------------------------------*/
+span{
+  color: #7DCAC3;
+  font-size:0.7em;
+}
+.navbar-brand{
+  color: #fff;
+  font-size:1.25em;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+
+nav ul li{
+  display: inline-block;
+  font-size: 0.75em;
+  margin: 0 12px;
+}
+nav ul li a{
+  color:#fff;
+}
+/*--------------------------------main photo----------------------------------*/
+
+.main-image{
+  position:relative;
+  max-height: 850px;
+  overflow:hidden;
+  margin-bottom: 90px;
+}
+
+.main-image img{
+  width:100%
+}
+/*----------------------------------start: hero section----------------------*/
+.hero-mkt-bar{
+  position: absolute;/*overlap the picture*/
+  z-index: 2;
+  background-color: rgba(255,255,255,0.65);
+  bottom:0;
+  left:0;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.hero-mkt-bar h1,
+.hero-mkt-bar h3{
+  color:#0c3c60;
+}
+
+.hero-mkt-bar h3{
+  margin-bottom: 10px;
+}
+/*--------------------------------end: hero section---------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/*---------------------------------About me-----------------------------------*/
+.foto{
+  margin-right: 35px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.about-us{
+  background-color: #D1E0eb;
+  color:#0c3c60;
+  text-align: center;
+  padding: 75px 10px 60px;/*top=75px, right and left=10px, bottom=60px*/
+  margin-top: -90px;
+}
+.about-us h1{
+  margin-bottom: 50px;
+}
+.about-us p{
+  max-width: 640px;
+  font-size: 0.85em;
+  margin:0 auto 80px;/*top=0, right and left = auto(center the element), bottom=80px*/
+  line-height: 1.5em;/* separacion entre lineas*/
+  text-align: justify;
+}
+.firma{
+  margin-left: 450px;
+}
+/*--------------------------------mkt boxes-----------------------------------*/
+.ServiceContainer{
+  background-image: url('/img/era-digital.jpg');
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:scroll ;
+	width: 100%;
+	height:auto;
+	margin: 0;
+	overflow:hidden;
+}
+#title-services{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color:#5ca5db;
+  font-size: 4em;
+  font-weight: 300;
+}
+
+.mkt-boxes{
+  margin-bottom: 90px;
+}
+
+.box1{
+  margin-right: 50px;
+  border:3px solid black;
+}
+.box2{
+  margin-left: 50px;
+  border:3px solid black;
+}
+.box1, .box2{
+  background-color:rgba(208,211,212,0.8);/*transparent*/
+  width: 50%;
+}
+.analysisPic, .webDevPic{
+  width: 80;
+  height: 80;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box1 h2, .box2 h2{
+  margin-bottom: 25px;
+  color:#0A325F;
+  font-weight: bold;
+}
+.box1 p, .box2 p{
+  line-height: 1.5em;
+  margin-bottom: 40px;
+  font-size: 0.85em;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  color:#0A325F;
+}
+/*.box1 button{
+  background-color:rgba(0,0,0,.5);
+  border-style: groove;
+  padding: 6px 15px;/* top and bottom=6px, left right=15px*/
+  /*color:#cbe0eb;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+}
+.box2 button{
+  background-color:rgba(0,0,0,.5);
+  border-style: groove;
+  padding: 6px 15px;/* top and bottom=6px, left right=15px*/
+/*  color:#cbe0eb;
+  font-size: 1em;
+  margin-top: 163px;
+  display: block;
+  width: 100%;
+}*/
+
+/* ----------------------------title projects--------------------------------*/
+.title-bar{
+  background-color: #708EAD;
+  overflow: hidden;
+  width: 100%;
+}
+#title-projects{
+  text-align: center;
+  color:#0c3c60;
+  font-size: 4em;
+  font-weight: 300;
+
+}
+/*----------------------------------Projects----------------------------------*/
+
+#Projects{
+  padding:2% 15%;
+  text-align:center ;
+  background-color: #708EAD;
+  color: #fff;
+}
+.Projects-image{
+  width: 20%;
+  margin: 20px;
+}
+/*--------------------------------contact-------------------------------------*/
+.contacto{
+  background-color: #e5fff9;
+}
+#title-contact{
+  text-align:center ;
+  color:#0c3c60;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.contact-form{
+      width: 85%;
+      max-width: 600px;
+      margin:auto;
+      padding: 30px 40px;
+  }
+
+.txtb{
+  border:1px solid gray;
+  margin:8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txt label{
+  display:block;
+  text-align: left;
+  color:#333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input, .txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline:none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.submit{
+  width: 100%;
+  display: block;
+  background-color: #00bfff;
+  text-align:center;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 14px 0;
+  border-radius: 8px;
+}
+.social{
+  text-align: right;
+}
+
+/*----------------Laptops and phones------------------------------------------*/
+
+@media (max-width:1024px)/*-------1024px landscape tablet----------------------*/
+{
+  /*------------about me---------------------*/
+  .foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .flex{
+    display: block;
+  }
+
+  .mkt-boxes.flex{
+    display:block;
+  }
+  .box1{
+    width: 100%;
+    height: auto%;
+    margin-bottom: 70px;
+  }
+  .box2{
+    margin-left: 0px;
+    width: 100%;
+    height: auto%;
+  }
+}
+
+@media (max-width:850px)/*-------------------850px-landscape samsumg-----------*/
+{
+  /* super hero --------------------------------*/
+  .hero-mkt-bar{
+    height: 40%;
+  }
+  .hero-mkt-bar h3{
+    font-size: 1em;
+  }
+  .hero-mkt-bar h1{
+    font-size: 2em;
+  }
+  /*-----------------about----------------------*/
+  .flex{
+    display: block;
+  }
+  .about-us h1{
+    font-size: 2em;
+  }
+  .firma{
+    margin:auto;
+  }
+
+  #title-services{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#5ca5db;
+    font-size: 2em;
+  }
+  .box1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+
+  }
+  .box2{
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .mkt-boxes.flex{
+    display: block;
+  }
+  .box1 h2, .box2 h2{
+    margin-bottom: 25px;
+    color:#0A325F;
+    font-size: 1.5em;
+    text-align:center;
+  }
+
+/*----------------projects----------------------*/
+  .title-bar{
+    margin-top: 0px;
+    width: 100%;
+  }
+  #title-projects{
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 300;
+  }
+  #Projects{
+    text-align:center;
+    display: flex;
+    font-size: 0.7em;
+
+  }
+/*------------------contact----------------------*/
+#title-contact{
+  text-align:center ;
+  color:#0c3c60;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+.txt label{
+  font-size: 14px;
+}
+.txtb input, .txtb textarea{
+
+  font-size: 18px;
+ }
+ .btb{
+   font-size:0.9em;
+ }
+
+}
+
+@media (max-width:425px) /*----------------------425px--portrait samsumg-------*/
+{
+  body{
+    position:absolute;
+  }
+/*----------------navbar----------------*/
+  span{
+    color: #7DCAC3;
+    font-size:0.55em;
+    display: block;
+    text-align: center;
+    }
+/*-----------------hero-----------------*/
+.hero-mkt-bar{
+  bottom:0;
+  left:0;
+  width: 100%;
+  padding: 15px 0;
+}
+/*-------------------projects-----------------*/
+.title-bar{
+  margin-top: 0px;
+  width: 100%;
+}
+
+}

@@ -1,0 +1,144 @@
+body{
+	background-image: url('/img/151.JPG');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:fixed ;
+	width: 100%;
+	height:100%;
+	margin: 0;
+	overflow:hidden;
+
+}
+
+h1{
+	color:#F0F8FF;
+	font-weight: 700;
+	font-size: 5em;
+}
+h4,h6{
+	color:#F0F8FF;
+}
+
+.container{
+	margin-right: auto;
+	margin-left: auto;
+}
+#content{
+	text-align: center;
+	padding: 39%;
+	text-shadow: 0px 4px 3px #2874A6;
+}
+
+span{
+  color: #7DCAC3;
+  font-size:0.7em;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 0.75em;
+}
+/*----------------------footer-------------------------------------------------*/
+.footer{
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: left;
+	font-size: 0.8em;
+  font-style: italic;
+}
+/* Android------------------------------*/
+/* Get Started--------------------------*/
+@media (max-width:1400px)/*-------------------1400px--------------------------*/
+{
+	#content{
+		padding:30%;
+	}
+}
+
+@media (max-width:1024px)/*--------------------1024px-------------------------*/
+{
+	#content{
+		padding:25%;
+	}
+}
+
+@media (max-width:600px)/*----------------------600px--------------------------*/
+{
+
+span{
+  color: #7DCAC3;
+  font-size:0.5em;
+}
+.navbar-brand{
+  font-size:1.25em;
+}
+#content{
+		text-align: center;
+}
+	#content h1{
+		font-size: 2em;
+	  }
+  #content h4{
+		font-size: 1em;
+	  }
+	#content h6{
+		font-size: 1em;
+		  }
+	#content a{
+		font-size: 1em;
+	}
+}
+@media (max-width:425px) /*---------------------425px-------------------------*/
+{
+
+span{
+  color: #7DCAC3;
+  font-size:0.55em;
+	display: block;
+	text-align: center;
+}
+#content{
+		text-align: center;
+}
+	#content h1{
+		font-size: 1.7em;
+	  }
+  #content h4{
+		font-size: 0.8em;
+	  }
+	#content h6{
+		font-size: 0.8em;
+	  }
+	#content a{
+		font-size: 0.8em;
+	}
+}
+@media (max-width:320px)/*----------------------320px-------------------------*/
+{
+
+span{
+  color: #7DCAC3;
+  font-size:0.3em;
+}
+.navbar-brand{
+  font-size:1.25em;
+}
+#content{
+		text-align: center;
+}
+	#content h1{
+		font-size: 2em;
+	  }
+  #content h4{
+		font-size: 1em;
+	  }
+	#content h4{
+		font-size: 1em;
+	  }
+	#content a{
+		font-size: 1em;
+	}
+}

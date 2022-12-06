@@ -1,0 +1,253 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-with, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/project.css" type = "text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+  </head>
+
+
+  <body>
+
+    <!--NavBar code----------------------------------------------------------------->
+
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#0c3c60">
+      <a class="navbar-brand" ><img class="logo" src="/img/logonetrans2.png" weight="75" height= "50"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li><a href="/">Home</a></li>
+        <!--<li><a href="#title-Analysis">Data Analysis</a></li>
+        <li><a href="#title-Web">Web Development</a></li>-->
+      </ul>
+    </div>
+   </nav>
+  </header>
+<!--Portfolio---------------------------------------------------------------------------------------------->
+  <section class = "Analysis-Container">
+   <div class="title-Analysis">
+    <h1 id="title-Analysis">Portfolio</h1>
+  </div>
+      <section class = "mkt-boxes"><!--boxes---------------------->
+          <div class="flex">
+            <div class="box1">
+              <div class = "starContainer">
+              <img class="Project1-image" src="/img/infographcanada1.png" alt="project1">
+              <em><a class = "btn btn-light btn-sm" href="/projects/progression of an immigrant.pdf#toolbar=0" role="button"> Open / Abrir</a></em>
+              <!--<h2 class="Projects-text">The Progression of Unemployment Rate for an Immigrant in Canada</h2>-->
+              <form action = "/rank" method = "post">
+                    <input type = "text" name = "nameReport" value = "The Progression of Unemployment Rate for an Immigrant in Canada"><br>
+                    <input type="radio" class="star-input" name="rating" id="star-1" value="1" checked>
+                      <label for="star-1" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-2" value="2">
+                      <label for="star-2" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-3" value="3">
+                      <label for="star-3" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-4" value="4">
+                      <label for="star-4" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-5" value="5" >
+                      <label for="star-5" class="star"><i class="fas fa-star"></i></label>
+                    <button  class ="btn3 btn-light btn-sm" onclick="result1()" type="submit">Send / Enviar</button>
+               </form>
+              <em><a class = "btn1 btn-light btn-sm" href="bodyEnglish#title-contact" role="button"> Send your comments.</a></em>
+              <em><a class = "btn2 btn-light btn-sm" href="bodySpanish#title-contact" role="button"> Envie sus comentarios.</a></em>
+            </div>
+            </div>
+
+            <div class="box2">
+              <div class = "starContainer">
+              <img class="Project2-image" src="/img/infograph.png" alt="project2">
+            <!--  <h2 class="Projects-text">Analysis of Bicycles stolen in Toronto Area for the years between 2014-2019</h2>-->
+              <em><a class = "btn btn-light btn-sm" href="/projects/DataBikes.pdf#toolbar=0" role="button"> Open / Abrir</a></em>
+              <form action = "/rank" method = "post">
+                    <input  type = "text" name = "nameReport" value = "Analysis of Bicycles stolen in Toronto Area for the years between 2014-2019"><br>
+                    <input type="radio" class="star-input" name="rating" id="star-6" value="1" checked>
+                      <label for="star-6" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-7" value="2">
+                      <label for="star-7" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-8" value="3">
+                      <label for="star-8" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-9" value="4">
+                      <label for="star-9" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-10" value="5">
+                      <label for="star-10" class="star"><i class="fas fa-star"></i></label>
+                    <button  class ="btn3 btn-light btn-sm" onclick="result1()" type="submit">Send / Enviar</button>
+               </form>
+              <em><a class = "btn1 btn-light btn-sm" href="bodyEnglish#title-contact" role="button"> Send your comments.</a></em>
+              <em><a class = "btn2 btn-light btn-sm" href="bodySpanish#title-contact" role="button"> Envie sus comentarios.</a></em>
+            </div>
+            </div>
+
+            <div class="box3">
+              <div class = "starContainer">
+              <img class="Project3-image" src="/img/homicidesToronto.PNG" alt="project3">
+              <!--<h2 class="Projects-text">Analysis of Homicides in Toronto Area for the years between 2004-2019</h2>-->
+              <em><a class = "btn btn-light btn-sm" href="/projects/Homicides Toronto Area.pdf#toolbar=0" role="button"> Open/Abrir</a></em>
+              <form action = "/rank" method = "post">
+                    <input  type = "text" name = "nameReport" value = "Analysis of Homicides in Toronto Area for the years between 2004-2019"><br>
+                    <input type="radio" class="star-input" name="rating" id="star-11" value="1" checked>
+                      <label for="star-11" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-12" value="2">
+                      <label for="star-12" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-13" value="3">
+                      <label for="star-13" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-14" value="4">
+                      <label for="star-14" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-15" value="5">
+                      <label for="star-15" class="star"><i class="fas fa-star"></i></label>
+                    <button  class ="btn3 btn-light btn-sm" onclick="result1()" type="submit">Send / Enviar</button>
+               </form>
+              <em><a class = "btn1 btn-light btn-sm" href="bodyEnglish#title-contact" role="button"> Send your comments.</a></em>
+              <em><a class = "btn2 btn-light btn-sm" href="bodySpanish#title-contact" role="button"> Envie sus comentarios.</a></em>
+            </div>
+          </div>
+
+            <div class="box4">
+              <div class = "starContainer">
+              <img class="Project4-image" src="/img/carcollision.png" alt="project4">
+              <!--<h2 class="Projects-text">Analysis of Homicides in Toronto Area for the years between 2004-2019</h2>-->
+              <em><a class = "btn btn-light btn-sm" href="/projects/CarCollisionToronto.pdf#toolbar=0" role="button"> Open/Abrir</a></em>
+              <form action = "/rank" method = "post">
+                    <input  type = "text" name = "nameReport" value = "Finding Data that Support the High Car Insurance Cost in Toronto"><br>
+                    <input type="radio" class="star-input" name="rating" id="star-16" value="1" checked>
+                      <label for="star-16" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-17" value="2">
+                      <label for="star-17" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-18" value="3">
+                      <label for="star-18" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-19" value="4">
+                      <label for="star-19" class="star"><i class="fas fa-star"></i></label>
+                    <input type="radio" class="star-input" name="rating" id="star-20" value="5">
+                      <label for="star-20" class="star"><i class="fas fa-star"></i></label>
+                    <button  class ="btn3 btn-light btn-sm" onclick="result1()" type="submit">Send / Enviar</button>
+               </form>
+              <em><a class = "btn1 btn-light btn-sm" href="bodyEnglish#title-contact" role="button"> Send your comments.</a></em>
+              <em><a class = "btn2 btn-light btn-sm" href="bodySpanish#title-contact" role="button"> Envie sus comentarios.</a></em>
+            </div>
+            </div>
+
+          </div>
+     </div>
+<!--Second row--------------------------------------------------------------------------------------------------------->
+      <div class="flex2">
+        <div class="box5">
+          <div class = "starContainer">
+          <img class="Project5-image" src="/img/PythonBaseball.png" alt="project5">
+          <em><a class = "btn btn-light btn-sm" href="/projects/BDA201_Project_Jaime_Alvarado.html" role="button"> Open / Abrir</a></em>
+          <!--<h2 class="Projects-text">The Progression of Unemployment Rate for an Immigrant in Canada</h2>-->
+          <form action = "/rank" method = "post">
+                <input type = "text" name = "nameReport" value = "Strategy of The Most Succesful Baseball Teams"><br>
+                <input type="radio" class="star-input" name="rating" id="star-21" value="1" checked>
+                  <label for="star-21" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-22" value="2">
+                  <label for="star-22" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-23" value="3">
+                  <label for="star-23" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-24" value="4">
+                  <label for="star-24" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-25" value="5" >
+                  <label for="star-25" class="star"><i class="fas fa-star"></i></label>
+                <button  class ="btn3 btn-light btn-sm" onclick="result1()" type="submit">Send / Enviar</button>
+           </form>
+          <em><a class = "btn1 btn-light btn-sm" href="bodyEnglish#title-contact" role="button"> Send your comments.</a></em>
+          <em><a class = "btn2 btn-light btn-sm" href="bodySpanish#title-contact" role="button"> Envie sus comentarios.</a></em>
+        </div>
+        </div>
+
+  <!--      <div class="box6">
+              <img class="Project2-image" src="pictures/infograph.png" alt="project2">
+              <h2 class="Projects-text">Analysis of Bicycles stolen in Toronto Area for the years between 2014-2019</h2>
+              <em><a class = "btn btn-light btn-sm" href="projects/Data/DataBikes.pdf#toolbar=0" role="button"> Open</a></em>
+            </div>
+
+            <div class="box7">
+              <img class="Project2-image" src="pictures/infograph.png" alt="project2">
+              <h2 class="Projects-text">Analysis of Bicycles stolen in Toronto Area for the years between 2014-2019</h2>
+              <em><a class = "btn btn-light btn-sm" href="projects/Data/DataBikes.pdf#toolbar=0" role="button"> Open</a></em>
+            </div>
+
+            <div class="box8">
+              <img class="Project2-image" src="pictures/infograph.png" alt="project2">
+              <h2 class="Projects-text">Analysis of Bicycles stolen in Toronto Area for the years between 2014-2019</h2>
+              <em><a class = "btn btn-light btn-sm" href="projects/Data/DataBikes.pdf#toolbar=0" role="button"> Open</a></em>
+            </div>-->
+        </div>
+      </section>
+ </section>
+ <!--footer----------------------------------------------------->
+ <div class="footer">
+   <p>Jaime Alvarado © 2021</p>
+ </div>
+
+ <!--
+ <section class = "Web-Container">
+  <div class="title-Web">
+   <h1 id="title-Web">Web Development</h1>
+  </div>
+    <section class = "web-boxes">
+      <div class="web-flex">
+       <div class="web-box1">
+         <div class = "starContainer">
+         <img class="web1-image" src="/img/mybusinessface.png" alt="web1">
+         <em><a class = "btn btn-light btn-sm" href="" role="button"> Open / Abrir</a></em>
+         <form action = "/rank" method = "post">
+               <input type = "text" name = "nameReport" value = "Jaime Alvarado website"><br>
+               <input type="radio" class="star-input" name="rating" id="star-51" value="1" checked>
+                 <label for="star-51" class="star"><i class="fas fa-star"></i></label>
+               <input type="radio" class="star-input" name="rating" id="star-52" value="2">
+                 <label for="star-52" class="star"><i class="fas fa-star"></i></label>
+               <input type="radio" class="star-input" name="rating" id="star-53" value="3">
+                 <label for="star-53" class="star"><i class="fas fa-star"></i></label>
+               <input type="radio" class="star-input" name="rating" id="star-54" value="4">
+                 <label for="star-54" class="star"><i class="fas fa-star"></i></label>
+               <input type="radio" class="star-input" name="rating" id="star-55" value="5">
+                 <label for="star-55" class="star"><i class="fas fa-star"></i></label>
+               <button  class ="btn3 btn-light btn-sm" onclick="result1()" type="submit">Send / Enviar</button>
+          </form>
+         <em><a class = "btn1 btn-light btn-sm" href="bodyEnglish#title-contact" role="button"> Send your comments.</a></em>
+         <em><a class = "btn2 btn-light btn-sm" href="bodySpanish#title-contact" role="button"> Envie sus comentarios.</a></em>
+         </div>
+       </div>
+
+        <div class="web-box2">
+          <div class = "starContainer">
+          <img class="web1-image" src="/img/mybusinessface.png" alt="web1">
+          <em><a class = "btn btn-light btn-sm" href="" role="button"> Open</a></em>
+          <form action = "/rank" method = "post">
+                <input type = "text" name = "nameReport" value = "Jaime Alvarado website"><br>
+                <input type="radio" class="star-input" name="rating" id="star-51" value="1">
+                  <label for="star-51" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-52" value="2">
+                  <label for="star-52" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-53" value="3">
+                  <label for="star-53" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-54" value="4">
+                  <label for="star-54" class="star"><i class="fas fa-star"></i></label>
+                <input type="radio" class="star-input" name="rating" id="star-55" value="5" checked>
+                  <label for="star-55" class="star"><i class="fas fa-star"></i></label>
+                <button  class ="btn3 btn-light btn-sm" onclick="result1()" type="submit">Send / Enviar</button>
+           </form>
+          <em><a class = "btn1 btn-light btn-sm" href="bodyEnglish#title-contact" role="button"> Send your comments.</a></em>
+          <em><a class = "btn2 btn-light btn-sm" href="bodySpanish#title-contact" role="button"> Envie sus comentarios.</a></em>
+          </div>
+        </div> -->
+
+    <!-------------------------------------------------------------------------------------------->
+        <!--link to jquery minified by default-------------------------------------------------->
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    	<!--------------------------------------------------------------------------------------->
+    	<!--link to JavaScript from bootstrapcdn by default-------------------------------------->
+    	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    	<!--------------------------------------------------------------------------------------->
+
+  </body>
+</html>
